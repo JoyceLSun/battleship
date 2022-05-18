@@ -4,31 +4,6 @@ jsun02@wesleyan.edu
 COMP112-03
 Final Project
 11 December 2020
-
-1. What were the 3 goals for your project?
-    The 3 goals for my project were: use inputs to have the user place the ship by using lists and nested conditionals,
-    define functions to let the human player play the game(using lists of lists for the board), and writing functions and
-    using the random module to generate ships for the computer player(using lists of lists to check the coordinates).
-2. Were the goals met?
-    I think all the goals were met, I was able to create the human and computer players successfully.For both players
-    I used lists of lists to gather the coordinates of the placed ships and compared the player or computer guesses against
-    those coordinate lists. I used a lot of nested conditionals for checking user inputs to prompt the user if the number
-    they entered has already been guessed or is not in the range. 
-3. How does this project illustrate your mastery of Python?
-    I didn't really use a lot of what we did in the latter half of the course like classes or fileio but I used a lot of
-    lists. I had to understand indexing and appending and deleting elements really well, and I wrote a lot of functions
-    to perform each action, and I had to use many different kinds of loops(if/else, for, and while). I also struggled a
-    little while debugging with variable assignments because I had so many and had a few of the same local variable
-    names within a function which was kind of confusing, so the organization of variable assignments is definitely crucial.
-    I also used the boolean terms to define whether the game is active or not, so I had to understand where the game would
-    end and return False or True. 
-4. What have you learned from doing this project?
-    I learned a lot about writing many functions that work off of each other. Previously in labs and homework we only wrote
-    minimally complicated functions that used other functions we wrote but for this project, I felt that I really had to write
-    everything I was using and had to piece it together myself, so I think I understood the flow of functions much better.
-    I also learned to think as a player of the game in order to write functions that check user inputs, which I think is
-    important to writing games because as the programmer, you know what you need to input, but that may not necessarily be
-    the case for players of the game. 
 """
 
 import random
